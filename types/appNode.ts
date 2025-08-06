@@ -8,5 +8,5 @@ export interface AppNodeData {
 }
 
 export interface AppNode extends Node {
-    data: AppNodeData;
+    data: AppNodeData; 
 }
