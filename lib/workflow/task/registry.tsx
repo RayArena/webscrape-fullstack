@@ -1,9 +1,7 @@
 import { LaunchBrowserTask } from "./LaunchBrowser";
+import { PageToHtmlTask } from "./PageToHtml";
 
 export const TaskRegistry = {
     LAUNCH_BROWSER: LaunchBrowserTask,
-}
-
-export enum TaskParamType {
-  STRING = "STRING",
-}
+    PAGE_TO_HTML: PageToHtmlTask
+};
